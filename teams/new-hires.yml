@@ -19,6 +19,7 @@ agent_options:
   path: ../lib/agent-options.yml
 controls:
   macos_settings:
+    custom_settings:
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/macos/scripts/set-timezone.script.sh
