@@ -34,3 +34,5 @@ team_settings:
   secrets:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
 software:
+  packages:
+    - path: ../lib/macos/software/zoom.yml
