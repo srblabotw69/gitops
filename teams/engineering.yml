@@ -26,6 +26,10 @@ controls:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/macos/scripts/set-timezone.script.sh
     - path: ../lib/macos/configuration-profiles/set-wallpaper.ps1
+  enable_disk_encryption: true
+  ipados_updates:
+    deadline: "2025-07-01"
+    minimum_version: "15.4.0"
 team_settings:
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
