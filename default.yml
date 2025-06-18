@@ -17,11 +17,13 @@ org_settings:
     host_expiry_enabled: true
     host_expiry_window: 30
   webhook_settings:
-    enable_activities_webhook: true
+    activities_webhook:
+      enable_webhook: true  
+      enable_activities_webhook: true
     destination_url: https://example.com
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: Fleet Awesome
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
