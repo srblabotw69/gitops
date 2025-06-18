@@ -1,0 +1,5 @@
+
+  url: https://pkg.cloudflareclient.com/cloudflare-warp.pkg
+  self_service: true
+  post_install_script:
+    path: ../lib/macos/scripts/warp-config.sh

@@ -40,8 +40,5 @@ team_settings:
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
 software:
-cloudfare-warp.yml:
-  url: https://pkg.cloudflareclient.com/cloudflare-warp.pkg
-  self_service: true
-  post_install_script:
-    path: ../lib/macos/scripts/warp-config.sh
+  packages:
+    - path: lib/macos/software/cloudfare-warp.yml
